@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tag Testing</title>
+    </head>
+    <body>
+        <!-- dl - descriptive list -->
+        <dl>
+            <dt>Title</dt>
+            <dd>Body</dd>
+            <dt>Title 2</dt>
+            <dd>Body 2</dd>
+        </dl>
+        
+        <!-- map - maps shapes on an image to hyperlinks -->
+        <img src="https://news.artnet.com/app/news-upload/2019/01/Cat-Photog-Feat-256x256.jpg" alt="Cat" usemap="#catmap">
+        <map name="catmap">
+            <area shape="rect" coords="0, 0, 256, 128" alt="tophalf" href="https://pbs.twimg.com/profile_images/664169149002874880/z1fmxo00_400x400.jpg">
+            <area shape="rect" coords="0, 128, 256, 256" alt="bottomhalf" href="https://i.pinimg.com/474x/c5/d3/9e/c5d39ed77b45f95a4cb97b3bc3186b6b.jpg">
+        </map>
+        <br>
+
+        <!-- canvas - a way to render to the screen using javascript -->
+        <canvas id="catgame" width="480" height="256">
+            Browser does not support canvas
+        </canvas>
+
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
