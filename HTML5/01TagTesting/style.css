@@ -1,0 +1,11 @@
+table * {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: gray;
+}
+
+tfoot {
+    background-color: lightblue;
+}

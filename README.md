@@ -8,6 +8,7 @@ I will start with the very basics and work up to more advanced technologies.
 - HTML5
 - CSS3
 - Vanilla Javascript
+- Three.js
 - JQuery (for knowledge)
 - Sass
 - Bootstrap

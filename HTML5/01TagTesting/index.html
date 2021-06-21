@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <title>Tag Testing</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <!-- dl - descriptive list -->
@@ -25,9 +28,56 @@
         <canvas id="catgame" width="480" height="256">
             Browser does not support canvas
         </canvas>
+        <br>
 
-        
+        <!-- table - a way to group content together -->
+        <table>
+            <!-- thead - semantic div header -->
+            <thead>
+                <!-- tr - table row -->
+                <tr>
+                    <!-- th - table header -->
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <!-- tbody - semantic div body -->
+            <tbody>
+                <tr>
+                    <!-- td - table content -->
+                    <td>Ice Cream</td>
+                    <td>$1.29</td>
+                </tr>
+                <tr>
+                    <td>Candy</td>
+                    <td>$0.59</td>
+                </tr>
+            </tbody>
+            <!-- tfoot - semantic div footer -->
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>$1.88</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
 
-        <script src="script.js"></script>
+        <!-- form - a way to send data to a server using html -->
+        <form action="./login.html" method="GET">
+            <p>
+                <label for="username">Username: </label>
+                <input id="username" name="username" type="text" placeholder="Username">
+            </p>
+            <p>
+                <label for="password">Password: </label>
+                <input id="password" name="password" type="password" placeholder="Password">
+            </p>
+            <p>
+                <label for="color">Color: </label>
+                <input id="color" name="color" type="color">
+            </p>
+            <button type="submit">Submit</button>
+        </form>
     </body>
 </html>
